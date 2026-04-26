@@ -18,12 +18,9 @@ Durante el curso he realizado diversas tareas:
 Un ejemplo de un pequeño script en Bash que utilizo para monitorizar la disponibilidad de un equipo en la red local es el siguiente:
 
 ```bash
-# Script sencillo para comprobar si un equipo responde
-if ping -c 1 192.168.1.1 > /dev/null; then
-    echo "El servidor está UP"
-else
-    echo "El servidor está DOWN"
-fi 
+# Acceder al directorio del proyecto y listar estructura detallada
+cd /proyectos/asir/iso-config && dir /s
+
 ```
 
 
