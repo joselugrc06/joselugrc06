@@ -23,7 +23,8 @@ if ping -c 1 192.168.1.1 > /dev/null; then
     echo "El servidor está UP"
 else
     echo "El servidor está DOWN"
-fi ```
+fi 
+```
 
 
 
